@@ -11,4 +11,9 @@ public class PageController {
 	public String doIndexUI() {
 		return "starter";
 	}
+	
+	@RequestMapping("doPageUI")
+	public String doPageUI(){
+		 return "common/page";
+	 }
 }
